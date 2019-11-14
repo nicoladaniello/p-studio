@@ -1,0 +1,180 @@
+/*
+    BF TYPOGRAPHY
+  */
+.black-friday .text-friday {
+  color: #ee165d;
+}
+.black-friday .bg-friday {
+  background-color: #ee165d;
+}
+.black-friday .link-friday {
+  color: #ee165d;
+  text-decoration: underline;
+}
+.black-friday .btn-friday {
+  color: #fff;
+  background-color: #ee165d;
+  border-color: #ee165d;
+}
+.black-friday .btn-friday:hover {
+  color: #fff;
+  background-color: #a71042;
+  border-color: #a71042;
+}
+.black-friday .link-friday:hover {
+  color: #a71042;
+}
+.black-friday .btn-friday-outline {
+  color: #ee165d;
+  background-color: #fff;
+  border-color: #666;
+}
+.black-friday .btn-friday-outline:hover {
+  color: #a71042;
+  background-color: #fff;
+  border-color: #333;
+}
+/*
+    / BF TYPOGRAPHY
+  */
+
+/*
+    FRIDAY-HERO
+  */
+.black-friday .friday-hero-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 10vw;
+  right: 10vw;
+  max-height: 80vw;
+  background-color: #000;
+}
+.black-friday .hero-link {
+  color: #fff;
+}
+.black-friday .hero-link:hover {
+  color: #ee165d;
+}
+@media (min-width: 769px) {
+  .black-friday .friday-hero-overlay {
+    left: 12vw;
+    right: 12vw;
+    max-height: 35vw;
+  }
+}
+@media (min-width: 992px) {
+  .black-friday .friday-hero-overlay {
+    left: 15vw;
+    right: 15vw;
+    max-height: 30vw;
+  }
+}
+.black-friday .marquee {
+  padding: 1em 0px;
+  overflow: hidden;
+  background-color: #f2f1ef;
+  text-transform: uppercase;
+}
+/*
+    / FRIDAY-HERO
+  */
+
+/*
+    CARD-FRIDAY
+  */
+.black-friday .card-friday .card {
+  text-align: center;
+  border: none;
+  margin-bottom: 1rem;
+}
+.black-friday .card-friday .card .card-title {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-size: 1.5em;
+}
+.black-friday .card-friday .card p.card-link > a {
+  text-transform: uppercase;
+  color: inherit;
+  font-size: 1.25em;
+}
+.black-friday .card-friday .card p.card-link > a[href] {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .black-friday .card-friday .card .card-body {
+    color: #fff;
+    background-color: #ee165d;
+  }
+  .black-friday .card-friday:hover .card-body {
+    background-color: #a71042;
+  }
+}
+@media (min-width: 769px) {
+  .black-friday .card-friday.daily-deal .card {
+    max-width: 546px;
+  }
+  .black-friday .card-friday .card .card-title {
+    font-size: 0.9em;
+  }
+  .black-friday .card-friday .card p.card-link > a {
+    font-size: 0.8em;
+  }
+  .black-friday .card-friday:not(.daily-deal) p.card-link > a {
+    color: #ee165d;
+  }
+  .black-friday .card-friday:not(.daily-deal):hover p.card-link > a {
+    color: #a71042;
+  }
+}
+
+.black-friday .card-friday .card .card-img-overlay {
+  padding: 0px 0px;
+}
+.black-friday .card-friday .card .card-img-overlay > div,
+.black-friday .card-friday .card .card-body {
+  padding: 1rem 0.5rem 0rem;
+}
+
+.black-friday .card-friday.daily-deal {
+  display: none;
+}
+.black-friday.all-deals .card-friday.daily-deal:not(.current-deal) {
+  display: block;
+}
+@media (min-width: 544px) {
+  .black-friday .card-friday.daily-deal {
+    display: block;
+  }
+}
+.black-friday .card-friday.daily-deal.current-deal {
+  display: block;
+}
+
+.black-friday .card-friday.daily-deal:not(.deal-active) img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.black-friday .card-friday.daily-deal .card .card-img-overlay {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #fff;
+}
+.black-friday .card-friday.daily-deal .card .card-img-overlay > div {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.black-friday .card-friday.daily-deal.deal-active .card .card-img-overlay > div {
+  background-color: #ee165d;
+}
+.black-friday
+  .card-friday.daily-deal.deal-active:hover
+  .card
+  .card-img-overlay
+  > div {
+  background-color: #a71042;
+}
+/*
+    / CARD-FRIDAY
+  */

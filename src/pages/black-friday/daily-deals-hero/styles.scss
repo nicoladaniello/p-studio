@@ -1,0 +1,112 @@
+/*
+    BF TYPOGRAPHY
+  */
+.black-friday .text-friday {
+  color: #ee165d;
+}
+.black-friday .bg-friday {
+  background-color: #ee165d;
+}
+.black-friday .link-friday {
+  color: #ee165d;
+  text-decoration: underline;
+}
+.black-friday .btn-friday {
+  color: #fff;
+  background-color: #ee165d;
+  border-color: #ee165d;
+}
+.black-friday .btn-friday:hover {
+  color: #fff;
+  background-color: #a71042;
+  border-color: #a71042;
+}
+.black-friday .link-friday:hover {
+  color: #a71042;
+}
+.black-friday .btn-friday-outline {
+  color: #ee165d;
+  background-color: #fff;
+  border-color: #666;
+}
+.black-friday .btn-friday-outline:hover {
+  color: #a71042;
+  background-color: #fff;
+  border-color: #333;
+}
+/*
+    / BF TYPOGRAPHY
+  */
+
+/*
+    FRIDAY-HERO
+  */
+#home-main-top.black-friday {
+  .hero {
+    max-height: 90vh;
+    overflow: hidden;
+
+    @media (min-width: 576px) {
+        max-height: 78vh;
+    }
+
+    .card-img-overlay {
+      padding: 0px 0px;
+
+      > div {
+        width: 90%;
+        padding: 1rem 0.2rem 0rem;
+        background-color: #000;
+
+        @media (min-width: 576px) {
+            width: 75%;
+        }
+      }
+    }
+
+    .title,
+    .uptitle {
+        font-size: 1.4rem;
+
+        @media (min-width: 576px) {
+            font-size: 2.5rem;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 3rem;
+        }
+    }
+
+    .title {
+        color: #ee165d;
+        margin-bottom: 0.8rem;
+    }
+
+    ul {
+      > li {
+        > a {
+          color: #fff;
+          font-size: 1em;
+          line-height: 2rem;
+
+          @media (min-width: 576px) {
+            font-size: 1em;
+            line-height: 1.8rem;
+          }
+
+          @media (min-width: 1200px) {
+            font-size: 1.2em;
+            line-height: 3rem;
+          }
+
+          &:hover {
+            color: #ee165d;
+          }
+        }
+      }
+    }
+  }
+}
+/*
+    / FRIDAY-HERO
+  */
