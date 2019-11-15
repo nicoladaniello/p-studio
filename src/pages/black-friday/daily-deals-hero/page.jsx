@@ -7,9 +7,8 @@ const content = {
   title: "25% Off everything",
   link: {
     href: {
-      id: "dresses"
-    },
-    value: "dresses"
+      id: "clothing"
+    }
   },
   images: {
     desktop: {
@@ -49,6 +48,7 @@ const content = {
 };
 
 const DailyDealsHeroPage = () => {
+  content.images.classes = "hero-img";
   return <DailyDealsHeroTemplate content={content}></DailyDealsHeroTemplate>;
 };
 

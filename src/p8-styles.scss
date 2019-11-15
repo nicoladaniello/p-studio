@@ -1,0 +1,303 @@
+/*
+    *   Global changes - KEEP
+    *   TODO: move to custom.css
+    */
+
+/*
+    *   TYPOGRAPHY
+    */
+.p8-style {
+  font-size: 12px;
+  overflow: hidden;
+}
+@media screen and (min-width: 320px) {
+  .p8-style {
+    font-size: calc(12px + (22 - 12) * ((100vw - 320px) / (1600 - 320)));
+  }
+}
+@media screen and (min-width: 1600px) {
+  .p8-style {
+    font-size: 22px;
+  }
+}
+
+.p8-style .display-1 {
+  font-size: 6em;
+}
+
+.p8-style .display-2 {
+  font-size: 5.5em;
+}
+
+.p8-style .display-3 {
+  font-size: 4.5em;
+}
+
+.p8-style .display-4 {
+  font-size: 3.5em;
+}
+
+.p8-style .display-5 {
+  font-size: 3em;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .p8-style .display-sm-1 {
+    font-size: 6em;
+  }
+
+  .p8-style .display-sm-2 {
+    font-size: 5.5em;
+  }
+
+  .p8-style .display-sm-3 {
+    font-size: 4.5em;
+  }
+
+  .p8-style .display-sm-4 {
+    font-size: 3.5em;
+  }
+
+  .p8-style .display-sm-5 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 768.2px) and (max-width: 991.98px) {
+  .p8-style .display-md-1 {
+    font-size: 6em;
+  }
+
+  .p8-style .display-md-2 {
+    font-size: 5.5em;
+  }
+
+  .p8-style .display-md-3 {
+    font-size: 4.5em;
+  }
+
+  .p8-style .display-md-4 {
+    font-size: 3.5em;
+  }
+
+  .p8-style .display-md-5 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .p8-style .display-lg-1 {
+    font-size: 6em;
+  }
+
+  .p8-style .display-lg-2 {
+    font-size: 5.5em;
+  }
+
+  .p8-style .display-lg-3 {
+    font-size: 4.5em;
+  }
+
+  .p8-style .display-lg-4 {
+    font-size: 3.5em;
+  }
+
+  .p8-style .display-lg-5 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 1200px) {
+  .p8-style .display-xl-1 {
+    font-size: 6em;
+  }
+
+  .p8-style .display-xl-2 {
+    font-size: 5.5em;
+  }
+
+  .p8-style .display-xl-3 {
+    font-size: 4.5em;
+  }
+
+  .p8-style .display-xl-4 {
+    font-size: 3.5em;
+  }
+
+  .p8-style .display-xl-5 {
+    font-size: 3em;
+  }
+}
+
+.p8-style h1,
+.p8-style .h1 {
+  font-size: 2.5em;
+}
+
+.p8-style h2,
+.p8-style .h2 {
+  font-size: 2em;
+}
+
+.p8-style h3,
+.p8-style .h3 {
+  font-size: 1.75em;
+}
+
+.p8-style h4,
+.p8-style .h4 {
+  font-size: 1.5em;
+}
+
+.p8-style h5,
+.p8-style .h5 {
+  font-size: 1.25em;
+}
+
+.p8-style h6,
+.p8-style .h6 {
+  font-size: 1em;
+}
+
+.p8-style p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.p8-style .lead {
+  font-size: 1.25em;
+}
+
+.p8-style figure {
+  position: relative;
+}
+
+.p8-style figcaption {
+  font-size: 0.8em;
+  padding-top: 0.4em;
+}
+
+.p8-style a.card-link {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .p8-style h5.card-link-p {
+    font-size: 1em;
+  }
+}
+
+.p8-style .lined-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.p8-style .lined-link:before {
+  background-color: #000;
+}
+.p8-style .lined-link.text-white:before {
+  background-color: #fff;
+}
+.p8-style .lined-link.text-gold:before {
+  background-color: #836938;
+}
+
+/* Link Animation */
+.p8-style .lined-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  transform-origin: 100% 50%;
+}
+
+.p8-style .lined-link:hover:before,
+.p8-style a:hover .lined-link:before {
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+/*
+    *   UTILITIES
+    */
+.p8-style a.stretched-link:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+
+/*
+    *   COLORS
+    */
+.text-black {
+  color: #000;
+}
+.bg-black {
+  background-color: #000;
+}
+
+.text-gold {
+  color: #836938;
+}
+.bg-gold {
+  background-color: #836938;
+}
+
+.text-sale {
+  color: #c30028;
+}
+.bg-sale {
+  background-color: #c30028;
+}
+
+/*
+    *   BUTTONS
+    */
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+.btn-white:hover {
+  color: #000;
+  background-color: rgb(219, 219, 219);
+  border-color: #000;
+}
+.btn-white:focus {
+  color: #000;
+  background-color: rgb(219, 219, 219);
+  border-color: #000;
+  box-shadow: 0 0 0 0.2rem rgba(219, 219, 219, 0.5);
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #000;
+  border-color: #ddd;
+}
+.btn-dark:hover {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  border-color: #ddd;
+}
+.btn-dark:focus {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  border-color: #ddd;
+  box-shadow: 0 0 0 0.2rem rgba(112, 112, 112, 0.5);
+}
+
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #ddd;
+}

@@ -43,60 +43,80 @@
   */
 #home-main-top.black-friday {
   .hero {
-    max-height: 90vh;
     overflow: hidden;
-
-    @media (min-width: 576px) {
-        max-height: 78vh;
-    }
 
     .card-img-overlay {
       padding: 0px 0px;
 
       > div {
-        width: 90%;
+        width: 96%;
+        height: 70%;
+        font-size: 3.5vw;
         padding: 1rem 0.2rem 0rem;
         background-color: #000;
 
         @media (min-width: 576px) {
-            width: 75%;
+          padding: 1rem 0.2rem 0rem;
+          width: 75%;
+          height: auto;
+          font-size: 2vw;
+        }
+
+        @media (min-width: 769px) {
+          padding: 1rem 0.2rem 0rem;
+          width: 75%;
+          font-size: 1.5vw;
+        }
+
+        @media (min-width: 992px) {
+          padding: 1rem 0.2rem 0rem;
+          width: 75%;
+          font-size: 1rem;
         }
       }
     }
 
-    .title,
-    .uptitle {
-        font-size: 1.4rem;
+    .hero-img {
+      width: 100%;
+      max-width: 1920px;
+      height: calc(100vh - 180px);
+      max-height: 600px;
+      object-fit: cover;
+      object-position: top;
 
-        @media (min-width: 576px) {
-            font-size: 2.5rem;
-        }
+      @media (min-width: 576px) {
+        height: calc(100vh - 220px);
+        max-height: none;
+      }
 
-        @media (min-width: 1200px) {
-            font-size: 3rem;
-        }
+      @media (min-width: 769px) {
+        height: calc(100vh - 220px);
+      }
+    }
+
+    .h1 {
+      font-size: 2.2em;
+      line-height: 1em;
+
+      @media (min-width: 576px) {
+        line-height: 1em;
+      }
     }
 
     .title {
-        color: #ee165d;
-        margin-bottom: 0.8rem;
+      color: #ee165d;
     }
 
     ul {
       > li {
         > a {
           color: #fff;
-          font-size: 1em;
-          line-height: 2rem;
+          font-size: 1.3em;
+          line-height: 250%;
 
-          @media (min-width: 576px) {
+          @media (min-width: 769px) {
             font-size: 1em;
-            line-height: 1.8rem;
-          }
-
-          @media (min-width: 1200px) {
-            font-size: 1.2em;
-            line-height: 3rem;
+            line-height: 2em;
           }
 
           &:hover {

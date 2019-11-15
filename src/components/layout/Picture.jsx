@@ -26,7 +26,7 @@ const Picture = ({ images, align = "center", className }) => {
         />
       )}
       <img
-        className="img-fluid"
+        className={classnames({"img-fluid": images.classes === undefined}, images.classes)}
         alt={desktop.alt}
         src={imagesURL.replace("%PATH%", images.desktop.src)}
       />
