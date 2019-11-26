@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "title": "Access to information",
+      "props": {
+        "href": "#"
+      }
+    },
+    {
+      "title": "Terms and Conditions",
+      "props": {
+        "href": "#"
+      }
+    },
+    {
+      "title": "Language Policy",
+      "props": {
+        "href": "#"
+      }
+    },
+    {
+      "title": "Privacy statement",
+      "props": {
+        "href": "#"
+      }
+    }
+  ]
+}

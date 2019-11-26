@@ -1,0 +1,42 @@
+$friday-color: #ee165d;
+$friday-color-hover: #a71042;
+
+/*
+    BF TYPOGRAPHY
+  */
+.black-friday .text-friday {
+  color: $friday-color;
+}
+.black-friday .bg-friday {
+  background-color: $friday-color;
+}
+.black-friday .link-friday {
+  color: $friday-color;
+  text-decoration: underline;
+}
+.black-friday .btn-friday {
+  color: #fff !important;
+  background-color: $friday-color;
+  border-color: $friday-color;
+}
+.black-friday .btn-friday:hover {
+  color: #fff;
+  background-color: $friday-color-hover;
+  border-color: $friday-color-hover;
+}
+.black-friday .link-friday:hover {
+  color: $friday-color-hover;
+}
+.black-friday .btn-friday-outline {
+  color: $friday-color;
+  background-color: #fff;
+  border-color: #666;
+}
+.black-friday .btn-friday-outline:hover {
+  color: $friday-color-hover;
+  background-color: #fff;
+  border-color: #333;
+}
+/*
+      / BF TYPOGRAPHY
+    */

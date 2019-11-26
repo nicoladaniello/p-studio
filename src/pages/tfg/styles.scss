@@ -1,0 +1,86 @@
+$dark: #000;
+
+$navbar-light-color: rgba(0, 0, 0, 0.8);
+$navbar-light-hover-color: rgba(0, 0, 0, 0.5);
+$navbar-toggler-padding-y: 1rem;
+
+$navbar-dark-color: #fff;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+$navbar-link-font-weight: 600;
+$navbar-link-font-size: 1.2rem;
+$navbar-link-padding-y: 2rem;
+$navbar-link-padding-x: 1.4rem;
+
+$footer-link-font-size: 0.8rem;
+$footer-link-padding-y: 0.8rem;
+$footer-link-padding-x: 0.5rem;
+
+html,
+body {
+  font-size: 14px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+  }
+  @include media-breakpoint-up(xl) {
+    font-size: 19px;
+  }
+}
+
+#navbar {
+  .navbar-brand {
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 4.5vw;
+    z-index: 20;
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 8px;
+      width: 6vw;
+      max-width: 120px;
+    }
+  }
+
+  .navbar-toggler {
+    border: none;
+
+    &:active,
+    &:focus {
+     outline: none;
+    }
+
+    .navbar-toggler-icon {
+      width: 96px;
+      height: 96px;
+    }
+  }
+
+  .navbar-nav .nav-link {
+    font-weight: $navbar-link-font-weight;
+    font-size: $navbar-link-font-size;
+    padding-top: $navbar-link-padding-y;
+    padding-bottom: $navbar-link-padding-y;
+    padding-left: $navbar-link-padding-x;
+    padding-right: $navbar-link-padding-x;
+  }
+}
+
+#footer {
+  .navbar-nav .navbar-text,
+  .navbar-nav .nav-link {
+    font-size: $footer-link-font-size;
+  }
+  .navbar-nav .nav-link {
+    padding-top: $footer-link-padding-y;
+    padding-bottom: $footer-link-padding-y;
+    padding-left: $footer-link-padding-x;
+    padding-right: $footer-link-padding-x;
+  }
+
+  .navbar-nav span.nav-link:hover {
+    color: $navbar-dark-color;
+  }
+}

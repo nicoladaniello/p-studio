@@ -1,10 +1,12 @@
 import React from "react";
-import "./App.scss";
-import "./p8-styles.scss";
-import DailyDealsHeroPage from "./pages/black-friday/daily-deals-hero/page";
+// import "./App.scss";
+// import "./p8-styles.scss";
+import TFGHomePage from "./pages/tfg/page";
 
 function App() {
-  return <DailyDealsHeroPage></DailyDealsHeroPage>;
+  return (
+    <TFGHomePage></TFGHomePage>
+  );
 }
 
 export default App;

@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "images": {
+      "desktop": {
+        "src": "https://damselinadress.images.blucommerce.com/damselinadress/webImages/TFG/hero2.jpg?auto=format%2Ccompress&bluhash=e6bbcfc283165afd9aaf6b3bb3f2e1a0&w=2480&h=745&fit=fillmax&fill=solid&s=2d68ad6bb147947f727b24e3092ed15b",
+        "alt": "TFG London"
+      },
+      "mobile": {
+        "src": "https://via.placeholder.com/992x800"
+      }
+    },
+    "title": "Welcome to TFG London"
+  },
+  "body": "TFG London is part of The Foschini Group Limited (TFG), a leading South African retail business. TFG entered the UK market in 2015 with the acquisition of Phase Eight and we have now added Whistles, Hobbs, Studio 8 and Damsel in a Dress to our impressive portfolio of the most successful, premium womenswear brands in the UK. We are excited to keep growing the TFG London group – including plans to open our first TFG store - and know that a strong team is key to driving our brands forward.",
+  "grid": [
+    {
+      "col": {
+        "md": "4"
+      },
+      "title": "Hobbs London",
+      "href": "#",
+      "images": {
+        "desktop": {
+          "src": "https://damselinadress.images.blucommerce.com/damselinadress/webImages/TFG/hobbs.jpg?auto=format%2Ccompress&bluhash=c73390be8bdbbd83e1781079615261d0&w=826&h=704&fit=fillmax&fill=solid&s=23789b20026a4ad77bb1a4dff268a675",
+          "alt": "Hobbs London"
+        },
+        "mobile": {
+          "src": "https://via.placeholder.com/768x500"
+        }
+      }
+    },
+    {
+      "col": {
+        "md": "4"
+      },
+      "title": "Phase Eight",
+      "href": "#",
+      "images": {
+        "desktop": {
+          "src": "https://damselinadress.images.blucommerce.com/damselinadress/webImages/TFG/phase-eight.jpg?auto=format%2Ccompress&bluhash=1c9dcdbfa767ba2073d55503928c59e5&w=826&h=704&fit=fillmax&fill=solid&s=3c130c04c054e5157ee1d05fce5bc712",
+          "alt": "Phase Eight"
+        },
+        "mobile": {
+          "src": "https://via.placeholder.com/768x500"
+        }
+      }
+    },
+    {
+      "col": {
+        "md": "4"
+      },
+      "title": "Whistles",
+      "href": "#",
+      "images": {
+        "desktop": {
+          "src": "https://damselinadress.images.blucommerce.com/damselinadress/webImages/TFG/whistles.jpg?auto=format%2Ccompress&bluhash=5f9da28076eb3c82b4db546374a85ad0&w=826&h=704&fit=fillmax&fill=solid&s=ff0989d1c917ed384111accf0b24e0c8",
+          "alt": "Whistles"
+        },
+        "mobile": {
+          "src": "https://via.placeholder.com/768x500"
+        }
+      }
+    },
+    {
+      "col": {
+        "md": "6"
+      },
+      "title": "Damsel In a Dress",
+      "href": "#",
+      "images": {
+        "desktop": {
+          "src": "https://damselinadress.images.blucommerce.com/damselinadress/webImages/TFG/damsel.jpg?auto=format%2Ccompress&bluhash=112fb91054107ebaeab88a8344ea068c&w=1240&h=704&fit=fillmax&fill=solid&s=b4b4b81d45740b67d02ca2739f330aa6",
+          "alt": "Damsel In a Dress"
+        },
+        "mobile": {
+          "src": "https://via.placeholder.com/768x500"
+        }
+      }
+    },
+    {
+      "col": {
+        "md": "6"
+      },
+      "title": "Studio 8",
+      "href": "#",
+      "images": {
+        "desktop": {
+          "src": "https://damselinadress.images.blucommerce.com/damselinadress/webImages/TFG/studio-8.jpg?auto=format%2Ccompress&bluhash=7bb150d52e076bf3e929e27052fb2ef7&w=1241&h=704&fit=fillmax&fill=solid&s=f25513efa8303c8b6708f9e32ea50760",
+          "alt": "Studio 8"
+        },
+        "mobile": {
+          "src": "https://via.placeholder.com/768x500"
+        }
+      }
+    }
+  ]
+}

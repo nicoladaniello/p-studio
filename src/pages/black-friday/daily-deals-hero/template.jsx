@@ -13,10 +13,12 @@ const DailyDealsHeroTemplate = ({ content }) => {
         <Picture images={images}></Picture>
         <Link stretched link={link.href}></Link>
         <Card.ImgOverlay className="d-flex align-items-end justify-content-center">
-          <div className="bg-black d-flex flex-column justify-content-around">
-            <Title size="h1" chronicle className="uptitle">
+          <div className="hero-content">
+            <Title size="h2" chronicle className="uptitle">
               {uptitle}
-              <span className="title d-block mt-3">{title}</span>
+            </Title>
+            <Title size="h1" chronicle className="title">
+              {title}
             </Title>
             <ul className="list-unstyled">
               {list.map(link => {
@@ -27,6 +29,13 @@ const DailyDealsHeroTemplate = ({ content }) => {
                 );
               })}
             </ul>
+            <div className="terms">
+              <p className="mb-0 small">
+                <small>
+                  T&C's Apply
+                </small>
+              </p>
+            </div>
           </div>
         </Card.ImgOverlay>
       </Card>

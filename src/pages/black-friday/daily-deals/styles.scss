@@ -1,4 +1,6 @@
 /*
+   DAILY DEALS  
+  */ /*
     BF TYPOGRAPHY
   */
 .black-friday .text-friday {
@@ -18,11 +20,11 @@
 }
 .black-friday .btn-friday:hover {
   color: #fff;
-  background-color: #a71042;
-  border-color: #a71042;
+  background-color: #c3114c;
+  border-color: #c3114c;
 }
 .black-friday .link-friday:hover {
-  color: #a71042;
+  color: #c3114c;
 }
 .black-friday .btn-friday-outline {
   color: #ee165d;
@@ -30,7 +32,7 @@
   border-color: #666;
 }
 .black-friday .btn-friday-outline:hover {
-  color: #a71042;
+  color: #c3114c;
   background-color: #fff;
   border-color: #333;
 }
@@ -41,6 +43,9 @@
 /*
     FRIDAY-HERO
   */
+.black-friday .bg-opaque {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .black-friday .friday-hero-overlay {
   position: absolute;
   bottom: 0px;
@@ -107,7 +112,7 @@
     background-color: #ee165d;
   }
   .black-friday .card-friday:hover .card-body {
-    background-color: #a71042;
+    background-color: #c3114c;
   }
 }
 @media (min-width: 769px) {
@@ -124,7 +129,7 @@
     color: #ee165d;
   }
   .black-friday .card-friday:not(.daily-deal):hover p.card-link > a {
-    color: #a71042;
+    color: #c3114c;
   }
 }
 
@@ -165,7 +170,11 @@
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
 }
-.black-friday .card-friday.daily-deal.deal-active .card .card-img-overlay > div {
+.black-friday
+  .card-friday.daily-deal.deal-active
+  .card
+  .card-img-overlay
+  > div {
   background-color: #ee165d;
 }
 .black-friday
@@ -173,7 +182,7 @@
   .card
   .card-img-overlay
   > div {
-  background-color: #a71042;
+  background-color: #c3114c;
 }
 /*
     / CARD-FRIDAY

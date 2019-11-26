@@ -1,0 +1,32 @@
+{
+  "logo": {
+    "src": "https://damselinadress.images.blucommerce.com/damselinadress/webImages/TFG/TFG-logo.png?auto=format%2Ccompress&bluhash=1a2fadd546a8d2b0c8c9a938d37d8c88&w=177&h=396&fit=fillmax&fill=solid&s=dcc7a8831f73a1777f16b7aaa5b0199e",
+    "alt": "TFG London"
+  },
+  "links": [
+    {
+      "title": "about us",
+      "props": {
+        "href": "#"
+      }
+    },
+    {
+      "title": "our brands",
+      "props": {
+        "href": "#"
+      }
+    },
+    {
+      "title": "careers",
+      "props": {
+        "href": "#"
+      }
+    },
+    {
+      "title": "contact us",
+      "props": {
+        "href": "#"
+      }
+    }
+  ]
+}
